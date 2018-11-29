@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: org.vn.programming.algorithm.LogaritTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec <<< FAILURE!
 testCountNumberDigitsOfIntegerValue(org.vn.programming.algorithm.LogaritTest)  Time elapsed: 0.008 sec  <<< FAILURE!
 java.lang.AssertionError: The test case is a prototype.
 	at org.junit.Assert.fail(Assert.java:88)

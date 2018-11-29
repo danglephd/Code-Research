@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="org.vn.programming.algorithm.LogaritTest" time="0.073" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="org.vn.programming.algorithm.LogaritTest" time="0.065" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
@@ -99,9 +99,12 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
 </failure>
     <system-out>countNumberDigitsOfIntegerValue
-2^2 = 4.0
-Number of digits of 4.0 = 1.6020599913279625
-Number of digits of 4.0 = 1.0
+double MAXVALUE = 1.7976931348623157E308
+2^1023 = 8.98846567431158E307
+Number of digits of 8.98846567431158E307 = 308.95368556425274
+Number of digits of 8.98846567431158E307 = 308.0
+Number of digits of 1.7976931348623157E308 = 309.25471555991675
+Number of digits of 1.7976931348623157E308 = 309.0
 </system-out>
   </testcase>
 </testsuite>

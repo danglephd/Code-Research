@@ -16,8 +16,12 @@ public class Logarit {
     void countNumberDigitsOfIntegerValue() {
         try {
 
-            int x = 2;
+            int x = 1023;
             int a = 2;
+            
+            //double MAXVALUE 
+            double MAX_VALUE = Double.MAX_VALUE;
+            System.out.println("double MAXVALUE = " + MAX_VALUE);
 
             //tính valuePow = a^x
             double valuePow = Math.pow(a, x);
@@ -27,6 +31,13 @@ public class Logarit {
             double numberDigits = Math.log10(valuePow) + 1;
             System.out.println("Number of digits of " + valuePow + " = " + numberDigits);
             System.out.println("Number of digits of " + valuePow + " = " + Math.floor(numberDigits));
+            
+            //Đếm số chữ số bằng cách tính: [log(valuePow)] + 1 cho MAX_VALUE
+            numberDigits = Math.log10(MAX_VALUE) + 1;
+            System.out.println("Number of digits of " + MAX_VALUE + " = " + numberDigits);
+            System.out.println("Number of digits of " + MAX_VALUE + " = " + Math.floor(numberDigits));
+            
+            
         } catch (Exception e) {
             System.out.println("Exception: " + e.getMessage());
             throw e;
